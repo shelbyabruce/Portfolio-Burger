@@ -1,0 +1,343 @@
+html {
+	background: -webkit-radial-gradient(circle, #F5F1EE, #FFFFFF);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding-right: 100px;
+	margin-left: 37px;
+	margin-top: 50px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1130px;
+	/*background-color: rgb(233, 225, 218);*/
+}
+
+/*****
+
+	COLUMN STYLES
+
+*****/
+
+.column {
+	float: left;
+	overflow: hidden;
+}
+
+.first-column {
+	width: 224px;
+	margin-right: 54px;
+}
+
+.second-column {
+	width: 820px;
+
+}
+
+/*****
+
+	NAV CONNECT STYLES
+
+*****/
+
+.nav_connect {
+	margin: 30px 0 60px 40px;
+}
+
+.nav_connect a {
+	display: block;
+	color: rgb(110, 111, 115);
+	font-family: Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+.nav_connect img {
+	vertical-align: middle;
+}
+
+/*****
+
+	NAV MAIN STYLES
+
+*****/
+
+.nav_main {
+	margin: 0 auto;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.nav_main a {
+	margin-right: 40px;
+	padding: 3px 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	color: rgb(26, 24, 25);
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: -.7px;
+}
+
+.nav_main a:last-child {
+	padding: 0;	
+	margin: 0;
+}
+
+#selected {
+	background: -webkit-radial-gradient(30% 30%, closest-corner, #E21F24, #2F2727);
+	border: 2px solid white;
+	color: white;
+}
+
+/*****
+
+	SPECIALS STYLES
+
+*****/
+
+.specials {
+	width: 220px;
+	height: 255px;
+	border: 1px solid rgb(189, 189, 189);
+	background: rgb(229, 229, 229);
+	padding: 0 8px;
+}
+
+.daily_specials {
+	border-top: solid black 1px;
+	padding-top: 20px;
+	font-family: sans-serif;
+	padding-left: 0;
+	font-size: 14px;
+}
+
+.day {
+	font-weight: bold;
+}
+
+h3 {
+	color: rgb(221, 0, 17);
+	font-family: cooper black;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding-bottom: 9px;
+}
+
+/*****
+
+	HEADING STYLES
+
+*****/
+
+h1 {
+	font-family: cooper black;
+	font-size: 70px;
+	margin: 0;
+	border-bottom: solid black 7px;
+	color: rgb(26, 24, 25);
+}
+
+h4 {
+	font-family: cooper black;
+	font-size: 50px;
+	margin: 0;
+	border-top: solid black 4px;
+	color: rgb(26, 24, 25);
+}
+
+/*****
+
+	FEATURED CONTENT STYLES
+
+*****/
+
+.burger_text {
+	width: 266px;
+	display: inline-block;
+	font-family: helvetica, sans-serif;
+	vertical-align: top;
+	margin-top: 45px;
+	float: left;
+}
+
+.burger_big {
+	width: 554px;
+	display: inline-block;
+	float: left;
+}
+
+/*****
+
+	"OTHER OPTION" STYLES
+
+*****/
+
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: cooper black;
+}
+
+.option {
+	width: 200px;
+	display: inline-block;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.other_options {
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: 20px;
+	border-top: 3px solid rgb(26, 24, 25);;
+	border-bottom: 3px solid rgb(26, 24, 25);;
+}
+
+.other_pic {
+	display: inline-block;
+	float: left;
+}
+
+.caption {
+	width: 157px;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.beer {
+	margin-left: 10px;
+}
+
+.build_a_burger {
+	width: 290px;
+}
+
+
+/*****
+
+	FOOTER STYLES
+
+*****/
+
+footer {
+	font-family: helvetica, sans-serif;
+	font-size: 12px;
+	letter-spacing: .7px;
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 400px;
+	margin-bottom: 20px; 
+}
+
+/*****
+
+	MENU.HTML STYLES
+
+*****/
+/*****
+
+	MENU ITEMS STYLES
+
+*****/
+
+.menu_item {
+	margin-right: 25px;
+	margin-top: 20px;
+	float: left;
+	display: inline-block;
+	width: 186px;
+}
+
+.top {
+	margin-bottom: 40px;
+}
+
+.bottom {
+	margin-bottom: 0;
+}
+
+.last {
+	margin-right: 0;
+}
+
+.menu_item h5 {
+	text-align: center;
+	font-size: 16px;
+	font-family: cooper black;
+	text-decoration: none;
+	color: black;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+/*****
+
+	COUPON STYLES
+
+*****/
+
+.want_some_coupons {
+	width: 820px;
+	height: 73px;
+	border: 2px solid #CDCDCD;
+	margin-top: 48px;
+	margin-bottom: 48px;
+	-moz-box-shadow: inset 0 0 5px #D8D8D8;
+   	-webkit-box-shadow: inset 0 0 5px #D8D8D8;
+   	box-shadow: inset 0 0 5px #D8D8D8;
+	/*padding-left: 20px;
+	padding-right: 20px;*/
+}
+
+.coupon_text h2 {
+	color: #E42029;
+	font-family: lobster, lucida handwriting;
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 20px;
+	float: left;
+}
+
+.form_coupon {
+	float: left;
+	display: inline-block;
+	margin-top: 27px;
+	margin-left: 10px;
+}
+
+.email {
+	width: 340px;
+}
+
+input::-webkit-input-placeholder {
+   color: black;
+}
+
+.button_primary {
+	background: -webkit-radial-gradient(30% 30%, closest-corner, #E21F24, #2F2727);
+	border: 2px solid white;
+	color: white;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	border-radius: 7px;
+	font-weight: bold;
+	font-size: 11px;
+	letter-spacing: .7px;
+	padding: 3px 10px;
+}
