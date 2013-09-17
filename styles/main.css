@@ -105,7 +105,6 @@ body {
 
 .specials {
 	width: 220px;
-	height: 255px;
 	border: 1px solid rgb(189, 189, 189);
 	background: rgb(229, 229, 229);
 	padding: 0 8px;
@@ -235,7 +234,6 @@ h2 {
 *****/
 
 footer {
-	float: left;
 	width: 40%;
 	margin: 20px auto;
 	font-family: helvetica, sans-serif;
